@@ -37,26 +37,26 @@ If a game is unrated, exclude it from the list.
 
 ```js
 var games = [
- {
-  title: "Grand Theft Auto",
-  rating: 4.48,
- },
- {
-  title: "Portal 2",
-  rating: 3.5,
- },
- {
-  title: "Team Fortress",
-  rating: null,
- },
- {
-  title: "The Witcher",
-  rating: 3.0,
- },
- {
-  title: "The Elder Scrolls",
-  rating: 2.9,
- },
+    {
+        title: "Grand Theft Auto",
+        rating: 4.48,
+    },
+    {
+        title: "Portal 2",
+        rating: 3.5,
+    },
+    {
+        title: "Team Fortress",
+        rating: null,
+    },
+    {
+        title: "The Witcher",
+        rating: 3.0,
+    },
+    {
+        title: "The Elder Scrolls",
+        rating: 2.9,
+    },
 ];
 ```
 
@@ -64,8 +64,8 @@ The `ul` element should look similar to this after your code executes:
 
 ```html
 <ul>
- <li>Name of game: rating</li>
- <li>Name of game: rating</li>
+    <li>Name of game: rating</li>
+    <li>Name of game: rating</li>
 </ul>
 ```
 
@@ -85,10 +85,11 @@ Call the function and pass in a value of your choice.
 If you pass in the value `"giraffes"`, the function should log: `"I don't like giraffes"`.
 
 Test your function by calling it with a value of each of these types:
-- String
-- Number
-- Boolean
-- Null
+
+-   String
+-   Number
+-   Boolean
+-   Null
 
 ---
 
@@ -114,12 +115,12 @@ Select the button with the class `page`.
 
 When the button is clicked do the following:
 
-- Change the title of the page (the value of the title element in the head) to "Updated title".
-- Change the background colour of the whole page to "yellow".
-- Change the color of the `h1` element to "green".
-- Change the `h1` element's font to "impact".
-- Change the value of the `h1` element to be a link.
-- Remove the list style and padding from the `ul` element.
+-   Change the title of the page (the value of the title element in the head) to "Updated title".
+-   Change the background colour of the whole page to "yellow".
+-   Change the color of the `h1` element to "green".
+-   Change the `h1` element's font to "impact".
+-   Change the value of the `h1` element to be a link.
+-   Remove the list style and padding from the `ul` element.
 
 The `h1` element should look like this after the click event:
 
@@ -137,22 +138,22 @@ When the button is clicked, loop through the array below, add all the prices and
 
 ```js
 var toys = [
- {
-  name: "Lego",
-  price: 15.6,
- },
- {
-  name: "Master of the Universe",
-  price: "28.3",
- },
- {
-  name: "Barbie",
-  price: null,
- },
- {
-  name: "Mr Potato Head",
-  price: 89.99,
- },
+    {
+        name: "Lego",
+        price: 15.6,
+    },
+    {
+        name: "Master of the Universe",
+        price: "28.3",
+    },
+    {
+        name: "Barbie",
+        price: null,
+    },
+    {
+        name: "Mr Potato Head",
+        price: 89.99,
+    },
 ];
 ```
 
@@ -160,8 +161,8 @@ var toys = [
 
 ## Submission
 
-- All your answers should be in the `js/script.js` file.
-- Write your answers with a comment above each answer indicating the question number:
+-   All your answers should be in the `js/script.js` file.
+-   Write your answers with a comment above each answer indicating the question number:
 
 ```js
 // question 1
@@ -175,4 +176,4 @@ var toys = [
 // etc
 ```
 
-- GitHub Classroom will have created a repo for you to use. Make sure you commit your answers to the repo on GitHub Classroom and submit the link to your repo.
+-   GitHub Classroom will have created a repo for you to use. Make sure you commit your answers to the repo on GitHub Classroom and submit the link to your repo.
